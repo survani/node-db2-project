@@ -11,6 +11,8 @@ exports.seed = function (knex) {
           make: "Toyota",
           model: "Corolla",
           mileage: "25500",
+          transmissionType: "Manual",
+          status: "clean",
         },
         {
           id: 2,
@@ -18,6 +20,8 @@ exports.seed = function (knex) {
           make: "Toyota",
           model: "Corolla",
           mileage: "25600",
+          transmissionType: "Automatic",
+          status: "salvage",
         },
         {
           id: 3,
@@ -25,6 +29,8 @@ exports.seed = function (knex) {
           make: "Toyota",
           model: "Corolla",
           mileage: "25800",
+          transmissionType: "Manual",
+          status: "salvage",
         },
       ]);
     });
